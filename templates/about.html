@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="container">
+    <h1>About this WebApp</h1>
+    <p>This website is a simple ToDo app wherein you can add, delete or update your day-to-day activities with the time you added your work on the list,
+         build using Python, Flask and SQLALCHEMY. To have a good grasp of using python in web developing I thought of this web app which can help me nourish my skills using 
+        SQLALCHEMY. Although this app can be further upgraded in many ways as per the requirements, it works as a simple projects which shows a good control 
+        over understanding of PYTHON and using FLASK for web development.</p> 
+    
+    
+    
+    <h1>What is FLASK ?</h1>
+    <p> <br>Flask is a micro web framework written in Python. It is classified as a microframework because it does not 
+        require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where 
+        pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application 
+        features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, 
+        upload handling, various open authentication technologies and several common framework related tools.
+        creating web applications in Python easier. It gives developers flexibility and is a more accessible framework for new developers  
+        since you can build a web application quickly using only a single Python file. Flask is also extensible and doesn’t 
+         force a particular directory structure or require complicated boilerplate code before getting started. </p>
+
+    <h1>How SQLALCHEMY is used ?</h1>
+    <p><br>In web applications, you usually need a database, which is an organized collection of data. You use a database to store and 
+        maintain persistent data that can be retrieved and manipulated efficiently. For example, in a social media application, you have
+         a database where user data (personal information, posts, comments, followers) is stored in a way that can be efficiently 
+         manipulated. You can add data to a database, retrieve it, modify it, or delete it, depending on different requirements and 
+         conditions. In a web application, these requirements might be a user adding a new post, deleting a post, or deleting their 
+         account, which may or may not delete their posts. The actions you perform to manipulate data will depend on specific features
+          in your application. For example, you might not want users to add posts with no titles. <br>
+
+    Flask is a lightweight Python web framework that provides useful tools and features for creating web applications in the Python
+     Language. SQLAlchemy is an SQL toolkit that provides efficient and high-performing database access for relational databases. 
+     It provides ways to interact with several database engines such as SQLite, MySQL, and PostgreSQL. It gives you access to the 
+     database’s SQL functionalities. It also gives you an Object Relational Mapper (ORM), which allows you to make queries and handle
+      data using simple Python objects and methods. Flask-SQLAlchemy is a Flask extension that makes using SQLAlchemy with Flask easier,
+       providing you tools and methods to interact with your database in your Flask applications through SQLAlchemy.</p>
+
+
+
+
+
+
+
+</div>
+
+
+
+{% endblock body %}
